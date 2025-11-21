@@ -18,7 +18,7 @@ Mistakes in the Conference Version
 ---
 
 A previous version of the script, which was used to compute the values of $D$ reported in the
-conference version and the current ePrint version, contained two mistakes:
+conference version and the initial ePrint version, contained two mistakes:
 
 - The reported value for $D$ was too small: it was given as the largest $w$ such that there is no
   attack vector of Hamming weight $\leq w2$ instead of being a strict upper bound on the Hamming
@@ -29,10 +29,8 @@ Combined the two errors resulted in values for $D$ that were too small by almost
 Since $D$ is a lower bound, the reported values were *not* incorrect, but not as good as they should
 have been.
 
-While the ePrint version has not been corrected yet, we will provide an new version of the paper
-with the artifact submission where Table 2 and the resulting PCF parameters have been updated.
-It can be verified against the ePrint version that the new values for $D$ are twice as large than
-before.
+Table 2 and the resulting PCF parameters have been updated in the ePrint version.
+It can be verified that the new values for $D$ are twice as large than before.
 
 
 Dependencies
